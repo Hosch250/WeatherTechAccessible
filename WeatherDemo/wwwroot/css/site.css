@@ -38,7 +38,8 @@ body {
 
 .weather-item {
     height: 200px;
-    background-color: lightblue;
+    border: 5px solid lightgrey;
+    border-radius: 15px;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -47,7 +48,8 @@ body {
     left: 0px;
     width: 20px;
     height: 50px;
-    background-color: gray;
+    background-color: white;
+    border: 1px solid black;
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -56,5 +58,14 @@ body {
     right: 0px;
     width: 20px;
     height: 50px;
-    background-color: gray;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.low-temp {
+    color: blue;
+}
+
+.high-temp {
+    color: #EE0000;
 }
