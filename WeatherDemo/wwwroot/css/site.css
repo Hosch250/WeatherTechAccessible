@@ -69,3 +69,9 @@ body {
 .high-temp {
     color: #EE0000;
 }
+
+legend {
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: none;
+}
